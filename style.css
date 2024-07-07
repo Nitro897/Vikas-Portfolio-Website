@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(0, 0, 0);
+    color: rgb(246, 242, 242);
+    font-family: "Poppins", sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    margin: 61px;
+    padding: -2px;
+    background-color:rgb(66 231 94);;
+    border-radius: 50px;
+}
+nav ul{
+    display: flex;
+    justify-content:center;
+}
+nav span{
+    color: black;
+  
+}
+
+ nav ul li {
+    list-style: none;
+    margin:  0 23px;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+ }
+ nav ul h3 li a:hover{
+    color:rgb(252, 252, 252);
+    font-size: 1.2rem;
+ }
+
+ .left{
+    font-size: 2rem;
+
+ }
+
+ .first{
+    display: flex;
+    justify-content: space-around;
+    margin: 90px 0;
+   
+ }
+ .first > div{
+    width: 30%;
+}
+ .leftSection{
+    font-size: 2.1rem;
+    
+
+ }
+ .rightSection{
+    margin: 3px 37px;
+ }
+
+ .rightSection img{
+    width: 95%;
+    margin: 10px;
+ }
+ .grey{
+    color:rgb(66 231 94);
+ }
+
+ #element{
+    color:rgb(66 231 94);
+ }
+ .leftSection .btn{
+    padding: 12px;
+    background: rgb(66 231 94);
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+ }
+
+ .leftSection .btn1{
+    padding: 9px;
+    background: rgb(0, 0, 0);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+ }
+ .leftSection .btn a{
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+ }
+
+ .leftSection .btn a:hover{
+  font-size: 1.2rem;
+}
+
+ .leftSection .btn1 a{
+    color: white;
+    text-decoration: none;
+ }
+ 
+ .leftSection .btn1 a:hover{
+    font-size: 1.2rem;
+ }
+.second{
+    max-width: 80vw;
+    height: 86vh;
+    margin: auto;
+    
+ }
+
+ .second h1{
+     font-size:1.9rem;
+
+ }
+ main hr{
+    border:0;
+    background: darkgray;
+    height: 1.5px;
+    margin: 35px 50px;
+ }
+ .textgray{
+     color: rgb(66 231 94);
+ }
+
+ .second .box{
+    background: grey;
+    width:80vw;
+    height: 2px;
+    margin: 56px 0;
+    display:flex;
+ }
+ .second .boxes{
+    height:93px;
+    width:1px;
+    background: grey;
+    margin: 0 140px;
+ }
+ .image-top{
+    width:39px;
+    position: relative;
+    top: -41px;
+    left: -18px;
+ }
+
+ .vertical-title{
+     position: relative;
+     top: 72px;
+     width: 150px;
+     font-size: 16px;
+     color:  white
+ }
+
+ .vertical-desc{
+    position: relative;
+    top:86px;
+    color: gray;
+    width: 150px;
+    font-size: 12px;
+ }
+
+ #Projects h1{
+   font-size:1.9rem;
+
+}
+#Projects{
+   max-width: 73vw;
+   height: 86vh;
+   margin: auto;
+   
+}
+
+
+#Projects .card{
+   display: flex;
+   justify-content: space-between;
+   width:80vw;
+   height: 2px;
+   
+}
+
+#Projects #box{ 
+   margin: 80px 0px;
+   padding: 70px;
+}
+#Projects .card #box .Img{
+   display: flex;
+   justify-content: center;
+   border: 2px solid rgb(255, 255, 255);
+   border-radius: 10px;
+   width: 289px;
+   position: relative;
+   top: -110px;
+   left: -62px;
+   height: 198px;
+}
+ .box-title{
+   position: relative;
+   top: -79px;
+   right: 62px;
+   width: 185px;
+   font-size: 16px;
+   text-decoration: solid;
+   color:  white
+}
+.box-title .size{
+   font-size: 11px;
+   width:208px;
+}
+
+.box-desc{
+   position: relative;
+    top: -73px;
+    right: 62px;
+    color: gray;
+    width: 293px;
+    font-size: 12px;
+}
+.button1 .btn1{
+   position: relative;
+   top: -48px;
+   padding: 12px;
+   background: rgb(66 231 94);
+   color: rgb(0, 0, 0);
+   border: 2px solid white;
+   border-radius: 20px;
+   cursor: pointer;
+}
+.button1 .btn1 a{
+   text-decoration: none;
+   color: black;
+}
+
+.button1 .btn1 a:hover{
+   font-size: 1.09rem;
+}
+ footer{
+    background-color: rgb(66 231 94);
+    height:212px;
+ }
+ .footer{
+    display: flex;
+    padding: 29px 93px;
+    justify-content: space-around;
+ }
+ .footer ul{
+    list-style: none;
+ }
+ .footer > div{
+      width:223px;
+ }
+
+ .footer .footer-first span{
+    color: black;
+ }
+ footer .footer-copy p{
+    text-align: center;
+    padding: 12px 0px;
+    
+ }
+
+ footer .footer .footer-second ul li a{
+   text-decoration: none;
+   color: rgb(12, 12, 12);
+}
+
+footer .footer .footer-forth a{
+   text-decoration: none;
+   color: rgb(255, 253, 253);
+}
+
